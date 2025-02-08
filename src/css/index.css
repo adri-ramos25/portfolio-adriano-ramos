@@ -1,0 +1,200 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    background-color: rgb(188, 216, 248);
+    padding: 20px;
+    border-bottom: solid 4px #000;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+button:hover{
+    color: #fff;
+    background-color: #000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.color-titles{
+    color: #2873ff;
+}
+h2{
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+
+
+
+/* Caixas em azul claro aonde ficam as informacoes */
+.section-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(25, 120, 229, 20%);
+    width: 25em;
+    margin-top: 100px;
+    border: 4px solid #000;
+    border-radius: 10px;
+}
+
+
+/* Estilos unicos para os botoes */
+.style-btn{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    border: 4px solid #000;
+    border-radius: 10px;
+}
+
+
+/* Cor unica para todos os icones dos botoes */
+.bi{
+    color: #000;
+}
+
+
+/* Margens unicas para os textos das secoes */
+.text-margin{
+    margin: 15px 30px 30px 30px;
+}
+
+
+/* Icone do botao que mostra a navegacao do site */
+.bi-list{
+    margin-top: 3px;
+}
+
+
+
+/* Secao 1 - minhas redes */
+.my-photo{
+    width: 120px;
+    border: 4px solid #000;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.box-network-btn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.network-btn{
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+
+/* Secao 2 - sobre mim */
+.about-me{
+    margin: 15px 30px 30px 30px;
+}
+
+
+
+/* Secao 3 - tecnologias */
+.box-technologies{
+    margin-bottom: 20px;
+}
+.box-line-technology{
+    display: flex;
+    align-items: center;
+}
+.technology-btn{
+    margin: 13px;
+}
+.technology-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+
+/* Secao 4 - habilidades pessoais */
+.soft-skill-btn{
+    background-color: transparent;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: 4px solid #000;
+    border-radius: 10px;
+}
+
+
+
+/* Secao 5 - meus projetos */
+.project-btn{
+    background-color: transparent;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.project-btn:hover{
+    background-color: transparent;
+}
+.screenshot-project{
+    width: 150px;
+    border: 4px solid #000;
+    border-radius: 15px;
+}
+
+
+
+/* Secao 6 - meus contatos */
+.my-contacts-section{
+    margin-bottom: 100px;
+}
+
+
+
+/* Rodape */
+.btn-back-to-top{
+    display: flex;
+    justify-content: center;
+    top: 570px;
+    left: 420px;
+    margin-bottom: 85px;
+    font-size: 35px;
+    background-color: #1978e533;
+    color: #000;
+}
+.developer-name{
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: #2873ff;
+}
+
+
+
+/* Primeira caixa, aonde ficam minha foto, meu nome, minha area de atuacao e os botoes das minhas redes */
+#first-box{
+    margin-top: 120px;
+}
