@@ -13,10 +13,67 @@
     <title>Portfólio Adriano Ramos</title>
 </head>
 
-<body id="top-page">
+<body id="section-top-page">
     <header>
-        <button class="style-btn">
+        <!-- Menu de navegacao que fica escondido inicialmente -->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <button class="nav-section-btn">
+                        <a href="#section-top-page">Minhas Redes</a>
+                    </button>
+                </li>
+
+                <li>
+                    <button class="nav-section-btn">
+                        <a href="#section-about-me">Sobre Mim</a>
+                    </button>
+                </li>
+
+                <li>
+                    <button class="nav-section-btn">
+                        <a href="#section-tecnologies">Tecnologias</a>
+                    </button>
+                </li>
+
+                <li>
+                    <button class="nav-section-btn">
+                        <a href="#section-soft-skills">Habilidades Pessoais</a>
+                    </button>
+                </li>
+
+                <li>
+                    <button class="nav-section-btn">
+                        <a href="#section-my-projects">Meus Projetos</a>
+                    </button>
+                </li>
+
+                <li>
+                    <button class="nav-section-btn">
+                        <a href="#section-my-contacts">Meus Contatos</a>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- Botao que abre o menu de navegacao -->
+        <button id="nav-btn" class="style-btn">
             <i class="bi bi-list"></i>
+        </button>
+
+
+        <!-- Botao que fecha o menu de navegacao -->
+        <button id="close-nav-btn" class="style-btn">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <button class="mode-btn style-btn">
+            <i class="bi bi-moon-fill"></i>
+        </button>
+
+        <button id="white-mode" class="mode-btn style-btn">
+            <i class="bi bi-brightness-high-fill"></i>
         </button>
     </header>
 
@@ -32,19 +89,19 @@
 
                 <div class="box-network-btn">
                     <button class="network-btn style-btn">
-                        <a href="www.linkedin.com/in/adriano-ramos25">
+                        <a href="www.linkedin.com/in/adriano-ramos25" target="_blank">
                             <i class="bi bi-linkedin"></i>
                         </a>
                     </button>
 
                     <button class="network-btn style-btn">
-                        <a href="https://github.com/adri-ramos25">
+                        <a href="https://github.com/adri-ramos25" target="_blank">
                             <i class="bi bi-github"></i>
                         </a>
                     </button>
 
                     <button class="network-btn style-btn">
-                        <a href="https://www.instagram.com/adriano.ramos25/">
+                        <a href="https://www.instagram.com/adriano.ramos25/" target="_blank">
                             <i class="bi bi-instagram"></i>
                         </a>
                     </button>
@@ -55,7 +112,7 @@
 
 
         <!-- Secao 2 - sobre mim -->
-        <section>
+        <section id="section-about-me">
             <div class="section-box">
                 <h2 class="color-titles">Sobre Mim</h2>
 
@@ -68,7 +125,7 @@
 
 
         <!-- Secao 3 - tecnologias -->
-        <section>
+        <section id="section-tecnologies">
             <div class="section-box">
                 <h2 class="color-titles">Tecnologias</h2>
 
@@ -119,7 +176,7 @@
 
 
         <!-- Secao 4 - habilidades pessoais -->
-        <section>
+        <section id="section-soft-skills">
             <div class="section-box">
                 <h2 class="color-titles">Habilidades Pessoais</h2>
 
@@ -140,7 +197,7 @@
 
 
         <!-- Secao 5 - meus projetos -->
-        <section>
+        <section id="section-my-projects">
             <div class="section-box">
                 <h2 class="color-titles">Meus Projetos</h2>
 
@@ -163,7 +220,7 @@
 
 
         <!-- Secao 6 - meus contatos -->
-        <section class="my-contacts-section">
+        <section id="section-my-contacts" class="my-contacts-section">
             <div class="section-box">
                 <h2 class="color-titles">Meus Contatos</h2>
 
@@ -172,11 +229,11 @@
                 </p>
 
                 <button class="soft-skill-btn">
-                    <a href="adriano.ramos.dev@gmail.com">Meu Email</a>
+                    <a href="adriano.ramos.dev@gmail.com" target="_blank">Meu Email</a>
                 </button>
 
                 <button class="soft-skill-btn">
-                    <a href="https://www.instagram.com/adriano.ramos25/">Meu Instagram</a>
+                    <a href="https://www.instagram.com/adriano.ramos25/" target="_blank">Meu Instagram</a>
                 </button>
             </div>
         </section>
@@ -185,16 +242,131 @@
 
         <!-- Botao que leva para o topo da pagina -->
         <button class="btn-back-to-top style-btn">
-            <a href="#top-page">
+            <a href="#section-top-page">
                 <i class="bi bi-arrow-up"></i>
             </a>
         </button>
+
+
+
+        <!-- Caixa aonde ficam as informacoes do projeto hamburgueria -->
+        <div class="box-my-projects">
+            <div class="section-box">
+                <h2 class="color-titles">Hamburgueria</h2>
+
+                <img src="src/images/hamburgueria.png" class="screenshot-project" alt="captura de tela do projeto hamburgueria">
+
+                <p class="text-margin">
+                    Este é meu primeiro projeto como desenvolvedor front-end. Começou como uma página simples e evoluiu com o tempo. Nele, apliquei vários conceitos das tecnologias que utilizo. Trata-se de um site de uma hamburgueria fictícia, onde os usuários podem adicionar e remover produtos do cardápio com facilidade.
+
+                    Tecnologias utilizadas:
+                </p>
+
+                <div class="box-links-my-projects">
+                    <button class="links-my-projects-btn">
+                        <a href="https://adri-ramos25.github.io/hamburgueria/" target="_blank">Projeto ao Vivo</a>
+                    </button>
+    
+                    <button class="links-my-projects-btn">
+                        <a href="https://github.com/adri-ramos25/hamburgueria" target="_blank">Repositório do Projeto</a>
+                    </button>
+                </div>
+    
+                <button id="close-hamburgueria-btn" class="links-my-projects-btn">Fechar</button>
+            </div>
+        </div>
+
+
+        <!-- Caixa aonde ficam as informacoes do projeto obter cor -->
+        <div class="box-my-projects">
+            <div class="section-box">
+                <h2 class="color-titles">Obter Cor</h2>
+
+                <img src="src/images/obter-cor.png" class="screenshot-project" alt="captura de tela do projeto hamburgueria">
+
+                <p class="text-margin">
+                    Neste site, é possível obter uma cor disponível selecionando ela nas opções de cores e copiando o código dela. Após copiar o código, basta colar ele onde quiser para usar a cor escolhida.
+                    <br>
+                    As tecnologias utilizadas para desenvolvê-lo foram:
+                </p>
+
+                <button class="soft-skill-btn">
+                    <a href="https://adri-ramos25.github.io/obter-cor/" target="_blank">Projeto ao Vivo</a>
+                </button>
+
+                <button class="soft-skill-btn">
+                    <a href="https://github.com/adri-ramos25/obter-cor" target="_blank">Repositório do Projeto</a>
+                </button>
+    
+                <button id="close-obter-cor-btn" class="soft-skill-btn">Fechar</button>
+            </div>
+        </div>
+
+
+
+        <!-- Informacoes da habilidade pessoal "organizacao" -->
+        <div class="box-soft-skill">
+            <div class="section-box">
+                <h2 class="color-titles">Organização</h2>
+
+                <p class="text-margin">
+                    Gosto de planejar bem os projetos que vou desenvolver e para isso eu montei um padrão de trabalho que me permite ficar mais atento aos detalhes para desenvolver projetos visualmente atraentes e funcionais.
+                </p>
+            </div>
+
+            <button class="close-soft-skill-btn">Fechar</button>
+        </div>
+
+
+        <!-- Informacoes da habilidade pessoal "gestao de tempo" -->
+        <div class="box-soft-skill">
+            <div class="section-box">
+                <h2 class="color-titles">Gestão de Tempo</h2>
+
+                <p class="text-margin">
+                    Busco organizar minha rotina de trabalho com foco em produtividade. Defino prazos claros, priorizo tarefas e divido o tempo de forma estratégica para garantir entregas dentro do cronograma, mantendo a qualidade no desenvolvimento dos projetos.
+                </p>
+            </div>
+
+            <button class="close-soft-skill-btn">Fechar</button>
+        </div>
+
+
+        <!-- Informacoes da habilidade pessoal "atencao aos detalhes" -->
+        <div class="box-soft-skill">
+            <div class="section-box">
+                <h2 class="color-titles">Atenção aos Detalhes</h2>
+
+                <p class="text-margin">
+                    Tenho um olhar cuidadoso para cada aspecto do projeto. Desde a estrutura do código até os elementos visuais, procuro identificar e corrigir possíveis inconsistências, garantindo que o produto final seja preciso, bem executado e sem falhas.
+                </p>
+            </div>
+
+            <button class="close-soft-skill-btn">Fechar</button>
+        </div>
+
+
+        <!-- Informacoes da habilidade pessoal "pensamento critico" -->
+        <div class="box-soft-skill">
+            <div class="section-box">
+                <h2 class="color-titles">Pensamento Crítico</h2>
+
+                <p class="text-margin">
+                    Adoto uma abordagem analítica para resolver problemas, questionando suposições e avaliando diferentes soluções antes de tomar decisões. Essa habilidade me permite otimizar processos, encontrar alternativas eficazes e melhorar a qualidade do código e dos projetos.
+                </p>
+            </div>
+
+            <button class="close-soft-skill-btn">Fechar</button>
+        </div>
     </main>
 
     <footer>
-        <p>Desenvolvido por <a href="https://github.com/adri-ramos25" class="developer-name">Adriano Ramos</a></p>
+        <p>Desenvolvido por <a href="https://github.com/adri-ramos25" class="developer-name" target="_blank">Adriano Ramos</a></p>
     </footer>
 
-    <script src="src/js/index.js"></script>
+    <script src="src/js/color-page.js"></script>
+    <script src="src/js/soft-skills.js"></script>
+    <script src="src/js/my-projects.js"></script>
+    <script src="src/js/nav-button.js"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+@media (max-width: 480px) {
+    
+    /* Caixas em azul claro aonde ficam as informacoes */
+    .section-box{
+        width: 17em !important;
+    }
+
+
+
+    /* Secao 3 - tecnologias */
+    .technology-btn{
+        margin: 6px !important;
+    }
+}

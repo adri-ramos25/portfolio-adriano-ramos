@@ -1,4 +1,4 @@
-# Porfólio Adriano Ramos
+## Porfólio Adriano Ramos
 
 
 
@@ -26,9 +26,28 @@ Indisponível no momento.
 
 
 ## Tecnologias Utilizadas
-Indisponível no momento.
+```plaintext
+- JavaScript   #Para criar a lógica de adição e remoção de produtos dos pedidos
+- HTML         #Para criar a estrutura da página
+- CSS          #Para estilizar a página 
+- Bootstrap    #Para adicionar ícones à página
+- Figma        #Para criar a interface do site
+```
 
 
 
 ## Estrutura de Pastas
-Indisponível no momento.
+```plaintext
+src/                         #Pasta com o código-fonte do projeto
+   css/                      #Pasta com arquivos CSS
+      index.css              #Estilos da página inicial
+      reset.css              #Reseta estilos de todos os elementos
+      responsive.css         #Estilos para design responsivo
+   js/                       #Pasta com arquivos JavaScript
+      color-page.js          #Para a lógica de mudança de tema da página
+      my-projects.js         #Relacionado aos projetos do meu portfólio
+      soft-skills.js         #Relacionado às minhas habilidades pessoais
+      nav-button.js          #Relacionado ao botão de navegação da página
+README.md                    #Informações do projeto
+index.html                   #Página inicial
+```
