@@ -44,7 +44,6 @@ src/                         #Pasta com o código-fonte do projeto
       reset.css              #Reseta estilos de todos os elementos
       responsive.css         #Estilos para design responsivo
    js/                       #Pasta com arquivos JavaScript
-      color-page.js          #Para a lógica de mudança de tema da página
       my-projects.js         #Relacionado aos projetos do meu portfólio
       soft-skills.js         #Relacionado às minhas habilidades pessoais
       nav-button.js          #Relacionado ao botão de navegação da página
