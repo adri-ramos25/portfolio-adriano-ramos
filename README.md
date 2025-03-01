@@ -1,9 +1,10 @@
-## Porfólio Adriano Ramos
+## Portfólio Adriano Ramos
+![Imagens do projeto](https://github.com/adri-ramos25/portfolio-adriano-ramos/raw/main/src/images/screenshot.png)
 
 
 
 ## Sobre o Projeto
-Este é o meu portfólio como desenvolvedor front-end, que está sendo criado para apresentar meus projetos, habilidades e contatos.
+Este é o meu portfólio como desenvolvedor front-end, criado para apresentar meus projetos, habilidades e contatos.
 
 
 

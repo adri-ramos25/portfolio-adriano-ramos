@@ -2,7 +2,8 @@
     
     /* Caixas em azul claro aonde ficam as informacoes */
     .section-box{
-        width: 17em !important;
+        width: 20em !important;
+        font-size: 14px;
     }
 
 
@@ -10,5 +11,14 @@
     /* Secao 3 - tecnologias */
     .technology-btn{
         margin: 6px !important;
+    }
+    .technologies-used{
+        flex-wrap: wrap;
+    }
+    .figma-box{
+        margin-right: 186px;
+    }
+    .links-my-projects-btn{
+        display: flex;
     }
 }
