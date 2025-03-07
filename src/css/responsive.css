@@ -3,7 +3,6 @@
     /* Caixas em azul claro aonde ficam as informacoes */
     .section-box{
         width: 20em !important;
-        font-size: 14px;
     }
 
 
@@ -20,5 +19,12 @@
     }
     .links-my-projects-btn{
         display: flex;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .section-box{
+        width: 18em !important;
     }
 }

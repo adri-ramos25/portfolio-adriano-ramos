@@ -22,7 +22,11 @@ O projeto está **em desenvolvimento**.
 
 
 ## Funcionalidades
-Indisponível no momento.
+```plaintext
+- Projetos do meu portfólio     #Permite a visualização dos projetos do meu portfólio
+- Menu de navegação             #Permite a navegação pelas seções da página
+- Minhas habilidades pessoais   #Permite a visualização das minhas habilidades pessoais
+```
 
 
 
@@ -39,15 +43,15 @@ Indisponível no momento.
 
 ## Estrutura de Pastas
 ```plaintext
-src/                         #Pasta com o código-fonte do projeto
-   css/                      #Pasta com arquivos CSS
-      index.css              #Estilos da página inicial
-      reset.css              #Reseta estilos de todos os elementos
-      responsive.css         #Estilos para design responsivo
-   js/                       #Pasta com arquivos JavaScript
-      my-projects.js         #Relacionado aos projetos do meu portfólio
-      soft-skills.js         #Relacionado às minhas habilidades pessoais
-      nav-button.js          #Relacionado ao botão de navegação da página
-README.md                    #Informações do projeto
-index.html                   #Página inicial
+src/                   #Pasta com o código-fonte do projeto
+   css/                #Pasta com arquivos CSS
+      index.css        #Estilos da página inicial
+      reset.css        #Reseta estilos de todos os elementos
+      responsive.css   #Estilos para design responsivo
+   js/                 #Pasta com arquivos JavaScript
+      my-projects.js   #Relacionado aos projetos do meu portfólio
+      soft-skills.js   #Relacionado às minhas habilidades pessoais
+      nav-button.js    #Relacionado ao botão de navegação da página
+README.md              #Informações do projeto
+index.html             #Página inicial
 ```

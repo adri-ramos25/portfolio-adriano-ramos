@@ -27,6 +27,7 @@ main{
 }
 li{
     list-style: none;
+    margin-bottom: 30px;
 }
 button{
     border: none;
@@ -321,16 +322,8 @@ footer{
     display: none;
 }
 
-#close-nav-btn{
-    width: 60px;
-    height: 60px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: none;
-}
 
-
-/* Botao que abre um menu lateral aonde tem os botoes que levam para as secoes da pagina */ 
+/* Botao que abre o menu aonde ficam os botoes que levam para as secoes da pagina */ 
 #nav-btn{
     width: 60px;
     height: 60px;
@@ -340,6 +333,14 @@ footer{
     border-color: #fff;
 }
 
+
+#close-nav-btn{
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: none;
+}
 
 
 /* Primeira caixa, aonde ficam minha foto, meu nome, minha area de atuacao e os botoes das minhas redes */
