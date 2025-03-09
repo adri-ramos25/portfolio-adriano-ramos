@@ -9,7 +9,9 @@ Este é o meu portfólio como desenvolvedor front-end, criado para apresentar me
 
 
 ## Acesso ao Projeto
-Você pode ver o projeto funcionando localmente da seguinte forma:
+Você pode ver o projeto funcionando através do seguinte link: https://adri-ramos25.github.io/portfolio-adriano-ramos/
+
+Ou, se preferir rodar localmente:
 
 1. Clone o repositório: `git clone https://github.com/adri-ramos25/portfolio-adriano-ramos.git`
 2. Abra o arquivo `index.html` no navegador.
@@ -17,7 +19,7 @@ Você pode ver o projeto funcionando localmente da seguinte forma:
 
 
 ## Status do Projeto
-O projeto está **em desenvolvimento**.
+O projeto está **Concluído**.
 
 
 
