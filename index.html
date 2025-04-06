@@ -15,46 +15,47 @@
 
 <body id="section-top-page">
     <header>
-        <h2 id="header-title">Navegar pela Página</h2>
         <!-- Menu de navegacao que fica escondido inicialmente -->
         <nav id="nav">
+            <h2 id="header-title" class="style-title">Navegar pela Página</h2>
+
             <ul>
                 <li>
-                    <a href="#section-top-page" class="nav-section-btn" alt="Ir para minhas redes" title="Ir para minhas redes">Minhas Redes</a>
+                    <a href="#section-top-page" class="nav-section-btn" alt="Ir para minhas redes" title="Ir para Minhas Redes">Minhas Redes</a>
                 </li>
 
                 <li>
-                    <a href="#section-about-me" class="nav-section-btn" alt="Ir sobre mim" title="Ir para sobre mim">Sobre Mim</a>
+                    <a href="#section-about-me" class="nav-section-btn" alt="Ir sobre mim" title="Ir para Sobre Mim">Sobre Mim</a>
                 </li>
 
                 <li>
-                    <a href="#section-tecnologies" class="nav-section-btn" alt="Ir para tecnologias" title="Ir para tecnologias">Tecnologias</a>
+                    <a href="#section-tecnologies" class="nav-section-btn" alt="Ir para tecnologias" title="Ir para Tecnologias">Tecnologias</a>
                 </li>
 
                 <li>
-                    <a href="#section-soft-skills" class="nav-section-btn" alt="Ir para minhas habilidades pessoais" title="Ir para minhas habilidades pessoais">Habilidades Pessoais</a>
+                    <a href="#section-soft-skills" class="nav-section-btn" alt="Ir para minhas habilidades pessoais" title="Ir para Habilidades Pessoais">Habilidades Pessoais</a>
                 </li>
 
                 <li>
-                    <a href="#section-my-projects" class="nav-section-btn" alt="Ir para meus projetos" title="Ir para meus projetos">Meus Projetos</a>
+                    <a href="#section-my-projects" class="nav-section-btn" alt="Ir para meus projetos" title="Ir para Meus Projetos">Meus Projetos</a>
                 </li>
 
                 <li>
-                    <a href="#section-my-contacts" class="nav-section-btn" alt="Ir para meus contatos" title="Ir para meus contatos">Meus Contatos</a>
+                    <a href="#section-my-contacts" class="nav-section-btn" alt="Ir para meus contatos" title="Ir para Meus Contatos">Meus Contatos</a>
                 </li>
             </ul>
         </nav>
 
 
-        <div class="btn-header">
+        <div>
             <!-- Botao que abre o menu de navegacao -->
-            <button id="nav-btn" class="style-btn">
+            <button id="btn-open-nav" class="nav-btn">
                 <i class="bi bi-list"></i>
             </button>
 
 
             <!-- Botao que fecha o menu de navegacao -->
-            <button id="close-nav-btn" class="style-btn">
+            <button id="close-nav-btn" class="nav-btn">
                 <i class="bi bi-list"></i>
             </button>
         </div>
@@ -64,30 +65,24 @@
         <!-- Secao 1 - minhas redes -->
         <section>
             <div id="first-box" class="section-box">
-                <img class="my-photo" src="src/images/foto.jpg" alt="Foto de Adriano Ramos" title="Adriano Ramos">
+                <img class="my-photo" src="src/images/foto.jpg" alt="Foto de Adriano Ramos" title="Foto de Adriano Ramos">
 
-                <h1 class="color-titles">Adriano Ramos</h1>
+                <h1 class="style-title">Adriano Ramos</h1>
 
-                <p>Desenvolvedor Front-End</p>
+                <p>Programador Front-End</p>
 
                 <div class="box-network-btn">
-                    <button class="network-btn style-btn" alt="Ir para meu LinkedIn" title="Ir para meu LinkedIn">
-                        <a href="https://www.linkedin.com/in/adriano-ramos25" target="_blank">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                    </button>
+                    <a class="network-btn" href="https://www.linkedin.com/in/adriano-ramos25" title="Ir para o meu LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
 
-                    <button class="network-btn style-btn" alt="Ir para meu GitHub" title="Ir para meu GitHub">
-                        <a href="https://github.com/adri-ramos25" target="_blank">
-                            <i class="bi bi-github"></i>
-                        </a>
-                    </button>
+                    <a class="network-btn" href="https://github.com/adri-ramos25" title="Ir para o meu GitHub" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                    </a>
 
-                    <button class="network-btn style-btn" alt="Ir para meu Instagram" title="Ir para meu Instagram">
-                        <a href="https://www.instagram.com/adriano.ramos25/" target="_blank">
-                            <i class="bi bi-instagram"></i>
-                        </a>
-                    </button>
+                    <a class="network-btn" href="https://www.instagram.com/adriano.ramos25/" title="Ir para o meu Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                    </a>
                 </div>
             </div>
         </section>
@@ -97,10 +92,10 @@
         <!-- Secao 2 - sobre mim -->
         <section id="section-about-me">
             <div class="section-box">
-                <h2 class="color-titles">Sobre Mim</h2>
+                <h2 class="style-title">Sobre Mim</h2>
 
-                <p class="text-margin">
-                    Sou um desenvolvedor focado em criar o front-end de sites e aplicações web, e atualmente estou aprimorando o meu conhecimento nesta área. Também pretendo me tornar desenvolvedor de jogos e criar os meus próprios projetos independentes no futuro.
+                <p class="text-about-me">
+                    Sou um programador focado em desenvolver o front-end de sites e aplicações web, e atualmente estou aprimorando o meu conhecimento nesta área. Na área da programação também pretendo me tornar desenvolvedor de jogos e criar os meus próprios projetos independentes no futuro.
                 </p>
             </div>
         </section>
@@ -110,47 +105,78 @@
         <!-- Secao 3 - tecnologias -->
         <section id="section-tecnologies">
             <div class="section-box">
-                <h2 class="color-titles">Tecnologias</h2>
+                <h2 class="style-title">Tecnologias</h2>
 
-                <p class="text-margin">Como desenvolvedor front-end eu 
-                   utilizo as seguintes tecnologias:
-                </p>
+                <p class="text-margin">Como programador front-end eu utilizo as seguintes tecnologias:</p>
 
 
                 <div class="box-technologies">
-                    <!-- Primeira caixa aonde ficam as quatro primeiras tecnologias -->
+
+                    <!-- Primeira caixa aonde ficam as tres primeiras tecnologias -->
                     <div class="box-line-technology">
-                        <button class="technology-btn style-btn" alt="JavaScript" title="JavaScript">
-                            <i class="devicon-javascript-plain"></i>
-                        </button>
+                        <div>
+                            <button class="technology-btn" alt="JavaScript" title="JavaScript">
+                                <i class="devicon-javascript-plain"></i>
+                            </button>
 
-                        <button class="technology-btn style-btn" alt="HTML" title="HTML">
-                            <i class="devicon-html5-plain"></i>
-                        </button>
+                            <p class="technology-name">JavaScript</p>
+                        </div>
 
-                        <button class="technology-btn style-btn" alt="CSS" title="CSS">
-                            <i class="devicon-css3-plain"></i>
-                        </button>
+                        <div>
+                            <button class="technology-btn" alt="HTML" title="HTML">
+                                <i class="devicon-html5-plain"></i>
+                            </button>
 
-                        <button class="technology-btn style-btn" alt="Bootstrap" title="Bootstrap">
-                            <i class="devicon-bootstrap-plain"></i>
-                        </button>
+                            <p class="technology-name">HTML</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn" alt="CSS" title="CSS">
+                                <i class="devicon-css3-plain"></i>
+                            </button>
+
+                            <p class="technology-name">CSS</p>
+                        </div>
                     </div>
 
 
-                    <!-- Segunda caixa aonde ficam as tres ultimas tecnologias -->
+                    <!-- Segunda caixa aonde ficam mais tres tecnologias -->
                     <div class="box-line-technology">
-                        <button class="technology-btn technology-icon style-btn" alt="Git" title="Git">
-                            <i class="devicon-git-plain"></i>
-                        </button>
+                        <div>
+                            <button class="technology-btn" alt="Bootstrap" title="Bootstrap">
+                                <i class="devicon-bootstrap-plain"></i>
+                            </button>
 
-                        <button class="technology-btn technology-icon style-btn" alt="GitHub" title="GitHub">
-                            <i class="bi bi-github"></i>
-                        </button>
+                            <p class="technology-name">Bootstrap</p>
+                        </div>
 
-                        <button class="technology-btn technology-icon style-btn" alt="Figma" title="Figma">
-                            <i class="devicon-figma-plain"></i>
-                        </button>
+                        <div>
+                            <button class="technology-btn" alt="Git" title="Git">
+                                <i class="devicon-git-plain"></i>
+                            </button>
+
+                            <p class="technology-name">Git</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn" alt="GitHub" title="GitHub">
+                                <i class="devicon-github-original"></i>
+                            </button>
+
+                            <p class="technology-name">GitHub</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Terceira caixa aonde ficam as ultimas tecnologias -->
+                    <div class="box-line-technology box-last-technologies">
+                        <div>
+                            <button class="technology-btn" alt="Figma" title="Figma">
+                                <i class="devicon-figma-plain"></i>
+                            </button>
+
+                            <p class="technology-name">Figma</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -161,13 +187,11 @@
         <!-- Secao 4 - habilidades pessoais -->
         <section id="section-soft-skills">
             <div class="section-box">
-                <h2 class="color-titles">Habilidades Pessoais</h2>
+                <h2 class="style-title">Habilidades Pessoais</h2>
 
-                <p class="text-margin">
-                    Também tenho habilidades pessoais, como:
-                </p>
+                <p class="text-margin">Também tenho habilidades pessoais, como:</p>
 
-                <button class="soft-skill-btn" alt="Clique para mais detalhes" title="Clique para mais detalhes">Organização</button>
+                <button class="soft-skill-btn btn-soft-skill-organization" alt="Clique para mais detalhes" title="Clique para mais detalhes">Organização</button>
 
                 <button class="soft-skill-btn" alt="Clique para mais detalhes" title="Clique para mais detalhes">Gestão de Tempo</button>
 
@@ -182,24 +206,26 @@
         <!-- Secao 5 - meus projetos -->
         <section id="section-my-projects">
             <div class="section-box">
-                <h2 class="color-titles">Meus Projetos</h2>
+                <h2 class="style-title">Meus Projetos</h2>
 
-                <p class="text-margin">
-                    Como desenvolvedor front-end:
-                </p>
+                <p class="text-margin">Como programador front-end:</p>
 
                 <div>
-                    <button class="project-btn" alt="Clique para mais detalhes" title="Clique para mais detalhes">
-                        <img src="src/images/hamburgueria.png" class="screenshot-project" alt="captura de tela do projeto hamburgueria">
-                    </button>
+                    <div class="box-line-project">
+                        <button class="project-btn" alt="Clique para mais detalhes" title="Clique para mais detalhes">
+                            <img src="src/images/hamburgueria.png" class="screenshot-project" alt="captura de tela do projeto hamburgueria">
+                        </button>
 
-                    <button class="project-btn" alt="Clique para mais detalhes" title="Clique para mais detalhes">
-                        <img src="src/images/obter-cor.png" class="screenshot-project" alt="captura de tela do projeto obter cor">
-                    </button>
+                        <button class="project-btn" alt="Clique para mais detalhes" title="Clique para mais detalhes">
+                            <img src="src/images/obter-cor.png" class="screenshot-project" alt="captura de tela do projeto obter cor">
+                        </button>
+                    </div>
 
-                    <button class="project-btn" alt="Clique para mais detalhes" title="Clique para mais detalhes">
-                        <img src="src/images/portfolio-adriano-ramos.png" class="screenshot-project" alt="captura de tela do projeto portfolio adriano ramos">
-                    </button>
+                    <div class="box-last-project">
+                        <button class="project-btn project-portfolio-btn" alt="Clique para mais detalhes" title="Clique para mais detalhes">
+                            <img src="src/images/portfolio-adriano-ramos.png" class="screenshot-project" alt="captura de tela do projeto portfolio adriano ramos">
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -209,167 +235,32 @@
         <!-- Secao 6 - meus contatos -->
         <section id="section-my-contacts" class="my-contacts-section">
             <div class="section-box">
-                <h2 class="color-titles">Meus Contatos</h2>
+                <h2 class="style-title">Meus Contatos</h2>
 
-                <p class="text-margin">
-                    Para entrar em contato comigo me envie uma mensagem pelo:
-                </p>
+                <p class="text-contact">Para entrar em contato comigo me envie uma mensagem pelo:</p>
 
-                <button class="soft-skill-btn" alt="Ir para meu email" title="Ir para meu email">
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adriano.ramos.dev@gmail.com" target="_blank" class="soft-skill-btn">Meu Email</a>
-                </button>
+                <div class="box-contact-link">
+                    <a class="contact-link email-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=adriano.ramos.dev@gmail.com" target="_blank" rel="noopener noreferrer" class="soft-skill-btn" title="Clique para me enviar um email">Meu Email</a>
 
-                <button class="soft-skill-btn" alt="Ir para meu instagram" title="Ir para meu instagram">
-                    <a href="https://www.instagram.com/adriano.ramos25/" target="_blank" class="soft-skill-btn">Meu Instagram</a>
-                </button>
+                    <p class="text-or">Ou</p>
+
+                    <a class="contact-link instagram-link" href="https://www.instagram.com/adriano.ramos25/" target="_blank" rel="noopener noreferrer" class="soft-skill-btn" title="Clique para me enviar uma mensagem pelo Instagram">Meu Instagram</a>
+                </div>
             </div>
         </section>
-
-
-
-        <!-- Caixa aonde ficam as informacoes do projeto hamburgueria -->
-        <div class="box-my-projects">
-            <div class="section-box box-project">
-                <h2 class="color-titles project-name">Hamburgueria</h2>
-
-                <p class="text-margin">
-                    Este foi meu primeiro projeto como desenvolvedor front-end. Começou como uma página simples e evoluiu com o tempo. Nele, apliquei vários conceitos das tecnologias que utilizo. Trata-se de um site de uma hamburgueria fictícia, onde os usuários podem adicionar e remover produtos do cardápio com facilidade. As tecnologias utilizadas para desenvolvê-lo foram::
-                </p>
-
-                <div class="technologies-used">
-                    <button class="technology-btn technology-icon style-btn" alt="JavaScript" title="JavaScript">
-                        <i class="devicon-javascript-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="HTML" title="HTML">
-                        <i class="devicon-html5-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="CSS" title="CSS">
-                        <i class="devicon-css3-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="Bootstrap" title="Bootstrap">
-                        <i class="devicon-bootstrap-plain"></i>
-                    </button>
-                </div>
-
-                <div class="figma-box">
-                    <button class="technology-btn technology-icon style-btn" alt="Figma" title="Figma">
-                        <i class="devicon-figma-plain"></i>
-                    </button>
-                </div>
-
-                <div class="box-links-my-projects">
-                    <button>
-                        <a href="https://adri-ramos25.github.io/hamburgueria/" target="_blank" class="links-my-projects-btn" alt="Ver o projeto funcionando" title="Ver o projeto funcionando">Projeto ao Vivo</a>
-                    </button>
-    
-                    <button>
-                        <a href="https://github.com/adri-ramos25/hamburgueria" target="_blank" class="links-my-projects-btn" alt="Ver o repositório do projeto" title="Ver o repositório do projeto">Repositório do Projeto</a>
-                    </button>
-                </div>
-
-                <button id="close-hamburgueria-btn" class="links-my-projects-btn">Fechar</button>
-            </div>
-        </div>
-
-
-        <!-- Caixa aonde ficam as informacoes do projeto obter cor -->
-        <div class="box-my-projects">
-            <div class="section-box box-project">
-                <h2 class="color-titles project-name">Obter Cor</h2>
-
-                <p class="text-margin">
-                    Neste site, é possível obter uma cor disponível selecionando ela nas opções de cores e copiando o código dela. Após copiar o código, basta colar ele onde quiser para usar a cor escolhida. As tecnologias utilizadas para desenvolvê-lo foram:
-                </p>
-
-                <div class="technologies-used">
-                    <button class="technology-btn technology-icon style-btn" alt="JavaScript" title="JavaScript">
-                        <i class="devicon-javascript-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="HTML" title="HTML">
-                        <i class="devicon-html5-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="CSS" title="CSS">
-                        <i class="devicon-css3-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="Figma" title="Figma">
-                        <i class="devicon-figma-plain"></i>
-                    </button>
-                </div>
-
-                <div class="box-links-my-projects">
-                    <button>
-                        <a href="https://adri-ramos25.github.io/obter-cor/" target="_blank" class="links-my-projects-btn" alt="Ver o projeto funcionando" title="Ver o projeto funcionando">Projeto ao Vivo</a>
-                    </button>
-
-                    <button>
-                        <a href="https://github.com/adri-ramos25/obter-cor" target="_blank" class="links-my-projects-btn" alt="Ver o repositório do projeto" title="Ver o repositório do projeto">Repositório do Projeto</a>
-                    </button>
-                </div>
-
-                <button id="close-obter-cor-btn" class="links-my-projects-btn">Fechar</button>
-            </div>
-        </div>
-
-
-        <!-- Caixa aonde ficam as informacoes do projeto portfolio adriano ramos -->
-        <div class="box-my-projects">
-            <div class="section-box box-project">
-                <h2 class="color-titles project-name">Portfólio Adriano Ramos</h2>
-
-                <p class="text-margin">
-                    Este é o meu portfólio como desenvolvedor front-end, criado para apresentar meus projetos, habilidades e contatos.
-                </p>
-
-                <div class="technologies-used">
-                    <button class="technology-btn technology-icon style-btn" alt="JavaScript" title="JavaScript">
-                        <i class="devicon-javascript-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="HTML" title="HTML">
-                        <i class="devicon-html5-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="CSS" title="CSS">
-                        <i class="devicon-css3-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="Bootstrap" title="Bootstrap">
-                        <i class="devicon-bootstrap-plain"></i>
-                    </button>
-
-                    <button class="technology-btn technology-icon style-btn" alt="Figma" title="Figma">
-                        <i class="devicon-figma-plain"></i>
-                    </button>
-                </div>
-
-                <div class="box-links-my-projects">
-                    <button>
-                        <a href="https://github.com/adri-ramos25/portfolio-adriano-ramos" target="_blank" class="links-my-projects-btn" alt="Ver o repositório do projeto" title="Ver o repositório do projeto">Repositório do Projeto</a>
-                    </button>
-                </div>
-
-                <button id="close-portfolio-btn" class="links-my-projects-btn">Fechar</button>
-            </div>
-        </div>
 
 
 
         <!-- Informacoes da habilidade pessoal "organizacao" -->
         <div class="box-soft-skill">
             <div class="section-box">
-                <h2 class="color-titles">Organização</h2>
+                <h2 class="style-title">Organização</h2>
 
                 <p class="text-margin">
                     Gosto de planejar bem os projetos que vou desenvolver, e para isso montei um padrão de trabalho que me permite desenvolver o projeto com mais atenção a cada aspecto dele.
                 </p>
 
-                <button class="close-soft-skill-btn">Fechar</button>
+                <button class="btn-close">Fechar</button>
             </div>
         </div>
 
@@ -377,13 +268,13 @@
         <!-- Informacoes da habilidade pessoal "gestao de tempo" -->
         <div class="box-soft-skill">
             <div class="section-box">
-                <h2 class="color-titles">Gestão de Tempo</h2>
+                <h2 class="style-title">Gestão de Tempo</h2>
 
                 <p class="text-margin">
                     Busco organizar minha rotina de trabalho com foco em produtividade. Defino prazos claros, priorizo tarefas e divido o tempo de forma estratégica para garantir entregas dentro do cronograma, mantendo a qualidade no desenvolvimento dos projetos.
                 </p>
 
-                <button class="close-soft-skill-btn">Fechar</button>
+                <button class="btn-close">Fechar</button>
             </div>
         </div>
 
@@ -391,13 +282,13 @@
         <!-- Informacoes da habilidade pessoal "atencao aos detalhes" -->
         <div class="box-soft-skill">
             <div class="section-box">
-                <h2 class="color-titles">Atenção aos Detalhes</h2>
+                <h2 class="style-title">Atenção aos Detalhes</h2>
 
                 <p class="text-margin">
                     Tenho um olhar cuidadoso para cada aspecto do projeto. Desde a estrutura do código até os elementos visuais, procuro identificar e corrigir possíveis inconsistências, garantindo que o produto final seja preciso e bem executado.
                 </p>
 
-                <button class="close-soft-skill-btn">Fechar</button>
+                <button class="btn-close">Fechar</button>
             </div>
         </div>
 
@@ -405,30 +296,226 @@
         <!-- Informacoes da habilidade pessoal "pensamento critico" -->
         <div class="box-soft-skill">
             <div class="section-box">
-                <h2 class="color-titles">Pensamento Crítico</h2>
+                <h2 class="style-title">Pensamento Crítico</h2>
 
                 <p class="text-margin">
                     Utilizo uma abordagem analítica para resolver problemas, questionando suposições e avaliando diferentes soluções antes de tomar decisões. Essa habilidade me permite otimizar processos, encontrar alternativas eficazes e melhorar a qualidade do código e dos projetos.
                 </p>
 
-                <button class="close-soft-skill-btn">Fechar</button>
+                <button class="btn-close">Fechar</button>
+            </div>
+        </div>
+
+
+
+        <!-- Caixa aonde ficam as informacoes do projeto hamburgueria -->
+        <div class="box-my-projects">
+            <div class="section-box box-project">
+                <h2 class="style-title text-margin">Projeto Hamburgueria</h2>
+
+                <div class="box-link-project">
+                    <a class="btn-link-project" href="https://adri-ramos25.github.io/hamburgueria/" target="_blank" rel="noopener noreferrer" alt="Ver o projeto funcionando" title="Clique para ver o projeto funcionando">Ver o Projeto Funcionando</a>
+
+                    <a class="btn-link-project" href="https://github.com/adri-ramos25/hamburgueria" target="_blank" rel="noopener noreferrer" alt="Ver o repositório do projeto" title="Ver o repositório do projeto">Repositório do Projeto</a>
+                </div>
+
+                <p class="text-margin">As tecnologias que eu utilizei para desenvolver este projeto foram:</p>
+
+
+                <div>
+                    <!-- Primeira caixa aonde ficam as tres primeiras tecnologias -->
+                    <div class="first-box-technology">
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="JavaScript" title="JavaScript">
+                                <i class="devicon-javascript-plain"></i>
+                            </button>
+
+                            <p class="technology-name">JavaScript</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="HTML" title="HTML">
+                                <i class="devicon-html5-plain"></i>
+                            </button>
+
+                            <p class="technology-name">HTML</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="CSS" title="CSS">
+                                <i class="devicon-css3-plain"></i>
+                            </button>
+
+                            <p class="technology-name">CSS</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Segunda caixa aonde ficam as duas ultimas tecnologias -->
+                    <div class="second-box-technology">
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="Bootstrap" title="Bootstrap">
+                                <i class="devicon-bootstrap-plain"></i>
+                            </button>
+
+                            <p class="technology-name">Bootstrap</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="Figma" title="Figma">
+                                <i class="devicon-figma-plain"></i>
+                            </button>
+
+                            <p class="technology-name figma-name">Figma</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="close-hamburgueria-btn" class="btn-close btn-close-technology-information">Fechar</button>
+            </div>
+        </div>
+
+
+
+        <!-- Caixa aonde ficam as informacoes do projeto obter cor -->
+        <div class="box-my-projects">
+            <div class="section-box box-project">
+                <h2 class="style-title text-margin">Projeto Obter Cor</h2>
+
+                <div class="box-link-project">
+                    <a class="btn-link-project" href="https://adri-ramos25.github.io/obter-cor/" target="_blank" rel="noopener noreferrer" alt="Ver o projeto funcionando" title="Clique para ver o projeto funcionando">Ver o Projeto Funcionando</a>
+
+                    <a class="btn-link-project" href="https://github.com/adri-ramos25/obter-cor" target="_blank" rel="noopener noreferrer" alt="Ver o repositório do projeto" title="Ver o repositório do projeto">Repositório do Projeto</a>
+                </div>
+
+                <p class="text-margin">As tecnologias que eu utilizei para desenvolver este projeto foram:</p>
+
+                <div>
+                    <!-- Primeira caixa aonde ficam as tres primeiras tecnologias -->
+                    <div class="first-box-technology">
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="JavaScript" title="JavaScript">
+                                <i class="devicon-javascript-plain"></i>
+                            </button>
+
+                            <p class="technology-name">JavaScript</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="HTML" title="HTML">
+                                <i class="devicon-html5-plain"></i>
+                            </button>
+
+                            <p class="technology-name">HTML</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="CSS" title="CSS">
+                                <i class="devicon-css3-plain"></i>
+                            </button>
+
+                            <p class="technology-name">CSS</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Segunda caixa aonde ficam as duas ultimas tecnologias -->
+                    <div class="second-box-technology">
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="Figma" title="Figma">
+                                <i class="devicon-figma-plain"></i>
+                            </button>
+
+                            <p class="technology-name">Figma</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="close-obter-cor-btn" class="btn-close btn-close-technology-information">Fechar</button>
+            </div>
+        </div>
+
+
+
+        <!-- Caixa aonde ficam as informacoes do projeto portfolio adriano ramos -->
+        <div class="box-my-projects">
+            <div class="section-box box-project">
+                <h2 class="style-title text-margin">Projeto Portfólio Adriano Ramos</h2>
+
+                <div class="box-link-project">
+                    <a class="btn-link-project" href="https://github.com/adri-ramos25/portfolio-adriano-ramos" target="_blank" rel="noopener noreferrer" alt="Ver o repositório do projeto" title="Ver o repositório do projeto">Repositório do Projeto</a>
+                </div>
+
+                <p class="text-margin">As tecnologias que eu utilizei para desenvolver este projeto foram:</p>
+
+                <div>
+                    <!-- Primeira caixa aonde ficam as tres primeiras tecnologias -->
+                    <div class="first-box-technology">
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="JavaScript" title="JavaScript">
+                                <i class="devicon-javascript-plain"></i>
+                            </button>
+
+                            <p class="technology-name">JavaScript</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="HTML" title="HTML">
+                                <i class="devicon-html5-plain"></i>
+                            </button>
+
+                            <p class="technology-name">HTML</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="CSS" title="CSS">
+                                <i class="devicon-css3-plain"></i>
+                            </button>
+
+                            <p class="technology-name">CSS</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Segunda caixa aonde ficam as duas ultimas tecnologias -->
+                    <div class="second-box-technology">
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="Bootstrap" title="Bootstrap">
+                                <i class="devicon-bootstrap-plain"></i>
+                            </button>
+
+                            <p class="technology-name">Bootstrap</p>
+                        </div>
+
+                        <div>
+                            <button class="technology-btn technology-icon style-btn" alt="Figma" title="Figma">
+                                <i class="devicon-figma-plain"></i>
+                            </button>
+
+                            <p class="technology-name">Figma</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="close-portfolio-btn" class="btn-close btn-close-technology-information">Fechar</button>
             </div>
         </div>
     </main>
 
     <footer>
         <!-- Botao que leva para o topo da pagina -->
-        <button class="btn-back-to-top style-btn" alt="Voltar para o topo da página" title="Voltar para o topo da página">
+        <button class="btn-back-to-top" alt="Voltar para o topo da página" title="Voltar para o topo da página">
             <a href="#section-top-page">
                 <i class="bi bi-arrow-up"></i>
             </a>
         </button>
 
-        <p>Desenvolvido por <a href="https://github.com/adri-ramos25" class="developer-name" target="_blank">Adriano Ramos</a></p>
+        <p>Desenvolvido por<a href="https://github.com/adri-ramos25" class="developer-name" target="_blank" rel="noopener noreferrer" title="Ir para o meu GitHub">Adriano Ramos</a></p>
     </footer>
 
     <script src="src/js/soft-skills.js"></script>
     <script src="src/js/my-projects.js"></script>
     <script src="src/js/nav-button.js"></script>
+    <script src="src/js/technologies-btns.js"></script>
 </body>
 </html>

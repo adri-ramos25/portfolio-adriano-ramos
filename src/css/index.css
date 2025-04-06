@@ -14,9 +14,9 @@ header{
     left: 0;
     padding: 10px;
     margin-top: 30px;
+    background-color: #062055;
 }
 header.scrolled{
-    background-color: #021233;
     margin-top: 0;
 }
 main{
@@ -25,30 +25,33 @@ main{
     justify-content: center;
     align-items: center;
 }
+nav{
+    padding: 0 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 4px solid #2873ff;
+}
 li{
     list-style: none;
-    margin-bottom: 30px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
 }
 button{
     border: none;
     background-color: transparent;
     color: #fff;
-    transition: 0.2s ease;
     cursor: pointer;
 }
 button:hover{
+    background-color: #fff;
     border-color: #fff;
 }
 a{
     text-decoration: none;
     border: none !important;
+    padding: 8px;
     color: #fff;
-}
-.color-titles{
-    color: #2873ff;
-}
-h2{
-    margin-top: 20px;
 }
 footer{
     display: flex;
@@ -61,21 +64,7 @@ footer{
 
 
 
-.nav-section-btn{
-    background-color: transparent;
-    width: 200px !important;
-    height: 40px;
-    margin-bottom: 30px;
-    padding: 5px;
-}
-.nav-section-btn:hover{
-    color: #2873ff;
-}
-
-
-
-
-/* Caixas em azul claro aonde ficam as informacoes */
+/* Caixas em azul aonde fica o conteudo da pagina */
 .section-box{
     display: flex;
     flex-direction: column;
@@ -84,52 +73,78 @@ footer{
     text-align: center;
     background-color: rgba(25, 120, 229, 20%);
     width: 25em;
-    margin-top: 100px;
+    margin-top: 150px;
     border: 4px solid #2873ff;
     border-radius: 10px;
 }
 
 
-/* Estilos unicos para os botoes */
-.style-btn{
+/* Estilos para todos os titulos */
+.style-title{
+    margin-top: 23px;
+    color: #2873ff;
+}
+
+
+/* Margens para os textos das secoes */
+.text-margin{
+    margin: 20px 20px 20px 20px;
+}
+
+
+/* Estilos para todos os botoes "Fechar" */
+.btn-close{
+    width: 140px;
+    height: 40px;
+    margin: 10px 0 30px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 4px solid #2873ff;
     background-color: transparent;
-    width: 50px;
-    height: 50px;
-    font-size: 40px;
-    border: 4px solid #2873ff;
-    border-radius: 10px;
-}
-
-
-/* Cor unica para todos os icones dos botoes */
-.bi{
     color: #fff;
 }
-
-
-/* Margens unicas para os textos das secoes */
-.text-margin{
-    margin: 15px 30px 20px 30px;
+.btn-close:hover{
+    color: #000;
 }
 
 
-/* Icone do botao que mostra a navegacao do site */
+/* Estilos para os icones dos botoes */
+.bi{
+    padding: 8px 12px;
+    font-size: 30px;
+    border: 4px solid #2873ff;
+    border-radius: 10px;
+    color: #fff;
+}
+.bi:hover{
+    border-color: #fff;
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* Icone do botao de navegacao */
 .bi-list{
     margin-top: 3px;
 }
 
 
-.btn-header{
-    display: flex;
+
+/* Botao que abre o menu aonde ficam os botoes que levam para as secoes da pagina */ 
+.nav-btn{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+}
+.nav-btn:hover{
+    background-color: transparent;
 }
 
 
-
-.mode-btn{
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    margin-left: 20px;
+/* Botoes que tem os nomes das secoes da pagina, que ficam no menu de navegacao */
+.nav-section-btn:hover{
+    color: #2873ff;
 }
 
 
@@ -139,66 +154,75 @@ footer{
     width: 120px;
     border-radius: 10px;
     margin-top: 30px;
-    margin-bottom: 10px;
-    cursor: pointer;
+    border: 4px solid #2873ff;
 }
 .box-network-btn{
-    margin-top: 20px;
-    margin-bottom: 10px;
+    display: flex;
+    margin: 30px 0 10px 0;
 }
 .network-btn{
     background-color: transparent;
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    margin: 10px;
+    padding: 0;
+    margin: 15px;
+    margin-bottom: 30px;
 }
-
+.network-btn:hover{
+    color: #000;
+}
 
 
 /* Secao 2 - sobre mim */
-.about-me{
-    margin: 15px 30px 30px 30px;
+.text-about-me{
+    margin: 20px 20px 25px 20px;
 }
-
 
 
 /* Secao 3 - tecnologias */
-.box-technologies{
-    margin-bottom: 10px;
-}
 .box-line-technology{
     display: flex;
     align-items: center;
+}
+.box-last-technologies{
+    margin-bottom: 15px;
 }
 .technology-btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 13px;
-    font-size: 25px;
+    padding: 12px 12px;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 4px solid #2873ff;
     color: #fff;
 }
-
+.technology-btn:hover{
+    color: #000;
+}
+.technology-name{
+    margin-bottom: 20px;
+    display: none;
+}
+.figma-name{
+    margin-bottom: 0;
+}
+.btn-link-project:hover{
+    color: #000;
+}
 
 
 /* Secao 4 - habilidades pessoais */
 .box-soft-skill{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: fixed;
     top: 0;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #000;
     display: none;
 }
 .soft-skill-btn{
     background-color: transparent;
     width: 200px;
-    height: 40px;
+    height: 60px;
     font-size: 16px;
     margin-bottom: 30px;
     color: #fff;
@@ -207,19 +231,11 @@ footer{
 }
 .soft-skill-btn:hover{
     border-color: #fff;
+    color: #000;
 }
-.close-soft-skill-btn{
-    width: 150px;
-    height: 40px;
+.btn-soft-skill-organization{
     margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 16px;
-    border-radius: 10px;
-    border: 4px solid #2873ff;
-    background-color: transparent;
-    color: #fff;
 }
-
 
 
 /* Secao 5 - meus projetos */
@@ -238,9 +254,8 @@ footer{
 .box-project{
     margin-top: 0;
 }
-.project-name{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.box-last-project{
+    display: flex;
 }
 .project-btn{
     background-color: transparent;
@@ -258,11 +273,25 @@ footer{
     cursor: pointer;
 }
 .screenshot-project:hover{
-    border: 4px solid #fff;
+    border: none;
 }
-.technologies-used{
+.box-link-project{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+.btn-link-project{
+    background-color: transparent;
+    width: 220px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    border: 4px solid #2873ff !important;
+    border-radius: 10px;
+}
+.btn-link-project:hover{
+    background-color: #fff;
+    border-color: #fff !important;
 }
 .box-links-my-projects{
     display: flex;
@@ -270,24 +299,58 @@ footer{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.links-my-projects-btn{
-    border: 4px solid #fff !important;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 10px;
-    background-color: transparent;
+.first-box-technology{
+    display: flex;
+    justify-content: center;
+}
+.second-box-technology{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+.btn-close-technology-information{
+    margin-bottom: 25px;
+}
+.project-portfolio-btn{
+    margin-bottom: 27px;
 }
 .links-my-projects-btn:hover{
     border-color: #2873ff !important;
 }
 
 
-
 /* Secao 6 - meus contatos */
 .my-contacts-section{
     margin-bottom: 100px;
 }
-
+.box-contact-link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.text-contact{
+    margin: 20px 20px 0 20px;
+}
+.contact-link{
+    padding: 20px 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: 4px solid #2873ff !important;
+}
+.contact-link:hover{
+    background-color: #fff;
+    color: #000;
+    border-color: #fff !important;
+}
+.email-link{
+    margin-top: 10px;
+}
+.instagram-link{
+    margin-bottom: 27px;
+}
+.text-or{
+    margin-bottom: 30px;
+}
 
 
 /* Rodape */
@@ -295,14 +358,18 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    top: 570px;
-    left: 420px;
-    margin-bottom: 85px;
+    margin-bottom: 90px;
     font-size: 30px;
-    background-color: #1978e533;
-    color: #fff;
+    background-color: transparent;
+}
+.btn-back-to-top:hover{
+    background-color: transparent;
+}
+.bi-arrow-up{
+    background-color: #021233;
 }
 .developer-name{
+    padding: 5px;
     text-decoration: underline;
     margin-bottom: 20px;
     color: #2873ff;
@@ -310,40 +377,25 @@ footer{
 
 
 
-#header-title{
-    margin-bottom: 30px;
-    color: #2873ff;
-    display: none;
+/* Primeira caixa, aonde ficam minha foto, meu nome, minha area de atuacao e os botoes das minhas redes */
+#first-box{
+    margin-top: 170px;
 }
 
 
-
+/* Para esconder o menu de navegacao */
 #nav{
     display: none;
 }
 
 
-/* Botao que abre o menu aonde ficam os botoes que levam para as secoes da pagina */ 
-#nav-btn{
-    width: 60px;
-    height: 60px;
-    border-color: #2873ff;
-}
-#nav-btn:hover{
-    border-color: #fff;
+/* Somente para dar uma cor de fundo ao botao que abre o menu de navegacao */
+#btn-open-nav{
+    background-color: #021233;
 }
 
 
-#close-nav-btn{
-    width: 60px;
-    height: 60px;
-    margin-top: 30px;
+#header-title{
     margin-bottom: 30px;
     display: none;
-}
-
-
-/* Primeira caixa, aonde ficam minha foto, meu nome, minha area de atuacao e os botoes das minhas redes */
-#first-box{
-    margin-top: 140px;
 }

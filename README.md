@@ -4,7 +4,7 @@
 
 
 ## Sobre o Projeto
-Este é o meu portfólio como desenvolvedor front-end, criado para apresentar meus projetos, habilidades e contatos.
+Este é o meu portfólio como programador front-end, criado para apresentar meus projetos, minhas habilidades e meus contatos.
 
 
 
@@ -45,15 +45,16 @@ O projeto está **Concluído**.
 
 ## Estrutura de Pastas
 ```plaintext
-src/                   #Pasta com o código-fonte do projeto
-   css/                #Pasta com arquivos CSS
-      index.css        #Estilos da página inicial
-      reset.css        #Reseta estilos de todos os elementos
-      responsive.css   #Estilos para design responsivo
-   js/                 #Pasta com arquivos JavaScript
-      my-projects.js   #Relacionado aos projetos do meu portfólio
-      soft-skills.js   #Relacionado às minhas habilidades pessoais
-      nav-button.js    #Relacionado ao botão de navegação da página
-README.md              #Informações do projeto
-index.html             #Página inicial
+src/                          #Pasta com o código-fonte do projeto
+   css/                       #Pasta com arquivos CSS
+      index.css               #Estilos da página inicial
+      reset.css               #Reseta estilos de todos os elementos
+      responsive.css          #Estilos para design responsivo
+   js/                        #Pasta com arquivos JavaScript
+      my-projects.js          #Relacionado aos projetos do meu portfólio
+      soft-skills.js          #Relacionado às minhas habilidades pessoais
+      nav-button.js           #Relacionado ao botão de navegação da página
+      technologies-btns.js    #Relacionado aos botões das tecnologias, que ao serem clicados os nomes das tecnologias aparecem
+README.md                     #Informações do projeto
+index.html                    #Página inicial
 ```

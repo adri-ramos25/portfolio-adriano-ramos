@@ -1,10 +1,9 @@
 @media (max-width: 480px) {
     
-    /* Caixas em azul claro aonde ficam as informacoes */
+    /* Caixas em azul aonde fica o conteudo da pagina */
     .section-box{
         width: 20em !important;
     }
-
 
 
     /* Secao 3 - tecnologias */
@@ -15,15 +14,23 @@
         flex-wrap: wrap;
     }
     .figma-box{
-        margin-right: 186px;
+        margin-right: 217px;
     }
     .links-my-projects-btn{
         display: flex;
+    }
+
+
+    /* Secao 5 - meus projetos */ 
+    .box-last-project{
+        justify-content: center;
     }
 }
 
 
 @media (max-width: 350px) {
+
+    /* Caixas em azul aonde fica o conteudo da pagina */
     .section-box{
         width: 18em !important;
     }

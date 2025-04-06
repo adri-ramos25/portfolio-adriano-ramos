@@ -23,24 +23,26 @@ projectBtn[1].addEventListener("click", () => {
 })
 
 
-// Mostra as informacoes do projeto portfolio adriano ramos
+// Mostra as informacoes do projeto portfolio
 projectBtn[2].addEventListener("click", () => {
     boxMyProjects[2].style.display = "block";
     boxMyProjects[2].style.display = "flex";
 })
 
 
-
+// Esconde as informacoes do projeto portfolio
 closeHamburgueria.addEventListener("click", () => {
     boxMyProjects[0].style.display = "none";
 })
 
 
+// Esconde as informacoes do projeto portfolio
 closeObterCor.addEventListener("click", () => {
     boxMyProjects[1].style.display = "none";
 })
 
 
+// Esconde as informacoes do projeto portfolio
 closePortfolio.addEventListener("click", () => {
     boxMyProjects[2].style.display = "none";
 })
