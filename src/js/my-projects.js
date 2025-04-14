@@ -30,13 +30,14 @@ projectBtn[2].addEventListener("click", () => {
 })
 
 
-// Esconde as informacoes do projeto portfolio
+
+// Esconde as informacoes do projeto hamburgueria
 closeHamburgueria.addEventListener("click", () => {
     boxMyProjects[0].style.display = "none";
 })
 
 
-// Esconde as informacoes do projeto portfolio
+// Esconde as informacoes do projeto obter cor
 closeObterCor.addEventListener("click", () => {
     boxMyProjects[1].style.display = "none";
 })
