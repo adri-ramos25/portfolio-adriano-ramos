@@ -4,7 +4,7 @@
 
 
 ## Sobre o Projeto
-Este é o meu portfólio como programador front-end, criado para apresentar meus projetos, minhas habilidades e meus contatos.
+Este é o meu portfólio como desenvolvedor, desenvolvido para apresentar meus projetos, minhas habilidades e meus contatos.
 
 
 
